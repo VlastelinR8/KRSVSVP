@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent) :
     (*ui).setupUi(this);
 //    myImage1.load("C:\\Users\\Vlastelin\\Documents\\KPSVP\\Screenshot_95.png");
 //    loadImg();
-    m_split = 256*m_diff;
+    this->m_split = 256*m_diff;
     ui->label->show();
 }
 
